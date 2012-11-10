@@ -7,7 +7,7 @@
 * Diferencias
 * Python es dinámico
 
-## Patrones Tradicionales
+## Patrones
 * Problema que resuelve
 * Uso Tradicional
 * Aplicabilidad
@@ -15,33 +15,20 @@
 
 ### Patrones Creacionales
 * Abstract Factory
-* Builder
-* Factory Method
-* Prototype
-* Singleton
 * Borg (No Tradicional)
 
 ### Patrones Estructurales
 * Adapter
-* Bridge
-* Composite
-* Decorator
 * Facade
 * Flyweight
 * Proxy
 
 ### Patrones de Comportamiento
-* Chain of Responsability
-* Command
-* Interpreter
 * Iterator
-* Mediator
 * Memento
 * Observer
 * State
 * Strategy
-* Template Method
-* Visitor
 
 ### Otros Patrones
 * Active Record
@@ -56,8 +43,8 @@
 * Tipos ricos
 * Funciones como objetos de primer nivel
 * Métodos mágicos
-* * Interceptores (getattr, getattribute, setattr)
-* * Implementors (get, set, del, eq, ge, ...)
+* * Interceptores (getattr, getattribute, setattr, delattr)
+* * Implementors (get, set, del, eq, ge, ..., iter, ...)
 * * Introspección (dir, dict, class, ...)
 * * Constructores (new, init)
 * Contextos
