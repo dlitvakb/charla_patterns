@@ -4,17 +4,17 @@
 ## Sistemas de Tipos
 
 ### Tipado Estático
-* Referencias tipadas y definidas previamente
+* Contratos explícitos y definidos en tiempo de compilación
+* Referencias tipadas
 * Objetos con interfaces inmutables
-* TODO: mejorar...
 
 ### Tipado Dinámico
-* Una referencia puede representar a cualquier objeto
+* El tipo a través del uso y no de su definición
+* Una referencia como nombre a un objeto y no contiene informacion de tipo
 * La interfaz del objeto puede mutar y enriquecerse
-* TODO: mejorar...
 
 ### Diferencias
-* TODO: ver que poner aca...
+* Necesidad de interfaces para definir contratos vs duck-typing
 
 ### Python es dinámico
 * Duck-Typing
