@@ -18,9 +18,7 @@
 * Borg (No Tradicional)
 
 ### Patrones Estructurales
-* Adapter
-* Facade
-* Flyweight
+* Adapter/Facade
 * Proxy
 
 ### Patrones de Comportamiento
@@ -29,15 +27,6 @@
 * Observer
 * State
 * Strategy
-
-### Otros Patrones
-* Active Record
-* Data Mapper
-* Entity
-* Model View Controller
-* Null Object
-* Query Object
-* Value Object
 
 ## Herramientas de diseño de Python
 * Tipos ricos
