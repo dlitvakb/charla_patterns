@@ -15,7 +15,6 @@
 
 ### Patrones Creacionales
 * Abstract Factory
-* Borg (No Tradicional)
 
 ### Patrones Estructurales
 * Adapter/Facade
@@ -25,12 +24,11 @@
 * Iterator
 * Memento
 * Observer
-* State
-* Strategy
+* Strategy/State
 
 ## Herramientas de diseño de Python
 * Tipos ricos
-* Funciones como objetos de primer nivel
+* Funciones y Clases como objetos de primer nivel
 * Métodos mágicos
 * * Interceptores (getattr, getattribute, setattr, delattr)
 * * Implementors (get, set, del, eq, ge, ..., iter, ...)
