@@ -5,14 +5,15 @@ class LoggingProxy(object):
     def __getattr__(self, name, *args, **kwargs):
         attr = getattr(self.real_object, name, None)
         if attr is not None:
-            print "Before executing %s" % name
+            print("Before executing {0}".format(name))
             return attr
         else:
-            raise AttributeError('%s has no attribute %s' % (
-                                     self.real_object.__class__.__name__,
-                                     name
-                                   )
-                                )
+            raise AttributeError(
+                '{0} has no attribute {1}'.format(
+                    self.real_object.__class__.__name__,
+                    name
+                )
+            )
 
 class Saludador(object):
     def hola(self):
@@ -20,8 +21,8 @@ class Saludador(object):
 
 if __name__ == '__main__':
     saludador = LoggingProxy(Saludador())
-    print saludador.hola()
+    print(saludador.hola())
 
-    print '\n\n\n'
+    print('\n\n\n')
 
-    print saludador.lalalala() # Quiero que este falle
+    print(saludador.lalalala()) # Quiero que este falle

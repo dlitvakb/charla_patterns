@@ -15,8 +15,8 @@ class B(object):
 
 
 if __name__ == '__main__':
-    print AbstractFactory('A').__class__.__name__
-    print AbstractFactory('B').__class__.__name__
+    print(AbstractFactory('A').__class__.__name__)
+    print(AbstractFactory('B').__class__.__name__)
 
-    print AbstractFactory('AbstractFactory').__class__.__name__
-    print AbstractFactory().__class__.__name__
+    print(AbstractFactory('AbstractFactory').__class__.__name__)
+    print(AbstractFactory().__class__.__name__)
